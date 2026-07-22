@@ -1,0 +1,17 @@
+#tablero {
+    width: 720px;
+    height: 720px;
+    border: solid 1px #f00;
+    display: grid;
+    grid-template-columns: repeat(6, 120px);
+    grid-template-rows: repeat(6, 120px);
+}
+
+.tarjeta {
+    border: solid 1px #00f;
+    text-align: center;
+    line-height: 120px;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}

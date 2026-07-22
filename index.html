@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de productos electrónicos</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h2>Catálogo de Productos Electrónicos</h2>
+            <nav>
+                <ul>
+                    <li><a onclick="verProductos('audifonos')" href="#">Audífonos</a></li>
+                    <li><a onclick="verProductos('smartphones')" href="#">Smartphones</a></li>
+                    <li><a onclick="verProductos('laptops')" href="#">Laptops</a></li>
+                    <li><a onclick="verProductos('tablets')" href="#">Tablets</a></li>
+                    <li><a onclick="verProductos('monitores')" href="#">Monitores</a></li>
+                    <li><a onclick="verProductos('computadoras')" href="#">Computadoras</a></li>
+                    <li><a onclick="verProductos('todos')" href="#">(Todos)</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="busqueda">
+            <div>
+                <label for="txtBusqueda">Buscar:</label>
+                <input type="text" name="txtBusqueda" id="txtBusqueda">
+            </div>
+        </div>
+        <div class="catalogo">
+            <div class="grupo audifonos">
+                <div class="tarjeta">
+                    <img src="imagenes/audifonos1.jpg" alt="">
+                    <p>Audífonos Bluetooth On Ear Izuum Black Beat 2 Con Radio FM, Micrófono</p>
+                    <p>S/. 39.90</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/audifonos2.jpg" alt="">
+                    <p>Audífonos Bluetooth True Wireless Izuum Lite 2 Resistente Al Agua IPX4</p>
+                    <p>S/. 49.90</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/audifonos3.jpg" alt="">
+                    <p>Audífonos Bluetooth True Wireless Izuum ES09 Resistente Al Agua IPX4</p>
+                    <p>S/. 49.90</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/audifonos4.jpg" alt="">
+                    <p>Audífonos Bluetooth On Ear Sony WH-CH520 Micrófono Incorporado</p>
+                    <p>S/. 129.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/audifonos5.jpg" alt="">
+                    <p>Audífonos On Ear Con Micrófono Izuum Essential Almohadillas Acolchadas</p>
+                    <p>S/. 39.90</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/audifonos6.jpg" alt="">
+                    <p>Audífonos Bluetooth True Wireless Philips TAT1209 Control Táctil</p>
+                    <p>S/. 45.00</p>
+                </div>
+            </div>
+            <div class="grupo smartphones">
+                <div class="tarjeta">
+                    <img src="imagenes/smartphone1.jpg" alt="">
+                    <p>Celular Samsung Galaxy A07 64GB, 4GB RAM, Cámara Principal 50MP + 2MP, Frontal </p>
+                    <p>S/. 349.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/smartphone2.jpg" alt="">
+                    <p>Celular Xiaomi Redmi A5 4G 128GB, 4GB RAM, Cámara Principal 32MP, Frontal </p>
+                    <p>S/. 459.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/smartphone3.jpg" alt="">
+                    <p>Celular Samsung Galaxy A06 4G 64GB, 4GB RAM, Cámara Principal 50MP + 2MP, </p>
+                    <p>S/. 399.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/smartphone4.jpg" alt="">
+                    <p>Celular Xiaomi Redmi Note 14, 6.67", Bluetooth 5.3, 6GB RAM, 128GB Rom, Cámara </p>
+                    <p>S/. 619.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/smartphone5.jpg" alt="">
+                    <p>Samsung Celular Galaxy S25 Fe 128Gb | 18 Cuotas Sin Intereses</p>
+                    <p>S/. 2699.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/smartphone6.jpg" alt="">
+                    <p>Celular Samsung Galaxy A16 4G 128GB, 4GB RAM, Cámara Principal 50MP + 5 MP + 2 </p>
+                    <p>S/. 579.00</p>
+                </div>
+            </div>
+            <div class="grupo laptops">
+                <div class="tarjeta">
+                    <img src="imagenes/laptop1.jpg" alt="">
+                    <p>HP Arma Tu Laptop Gaming Ideal (450825699:Arma Tu Laptop Gaming Ideal-1)</p>
+                    <p>S/. 2569.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/laptop2.jpg" alt="">
+                    <p>Laptop HP 15-Fc0043la, Windows 11 Home Single Language, 15.6", AMD Ryzen 3, </p>
+                    <p>S/. 1859.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/laptop3.jpg" alt="">
+                    <p>Laptop HP 15-Fc0258la, AMD Ryzen 5, 16 GB RAM, 1 TB SSD, 15.6" FHD, </p>
+                    <p>S/. 1899.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/laptop4.jpg" alt="">
+                    <p>Laptop HP 15-Fd0254la, Intel Core I5, 8 GB, 512 GB SSD, 15.6, FHD Windows 11 </p>
+                    <p>S/. 1699.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/laptop5.jpg" alt="">
+                    <p>Laptop HP 15-Fd0026la, Windows 11 Home Single Language, 15.6", Intel Core I3, 8GB </p>
+                    <p>S/. 1499.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/laptop6.jpg" alt="">
+                    <p>Laptop Lenovo V15 G2 IJL Intel Celeron N4500, 8GB RAM, 256GB SSD, 15.6" FHD, Freedos + </p>
+                    <p>S/. 969.00</p>
+                </div>
+            </div>
+            <div class="grupo tablets">
+                <div class="tarjeta">
+                    <img src="imagenes/tablet1.jpg" alt="">
+                    <p>Tablet Samsung Galaxy Tab A9 4GB 64GB 8.7" Gris + Cargador 15W</p>
+                    <p>S/. 539.90</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/tablet2.jpg" alt="">
+                    <p>Samsung Galaxy Tab A11 21239694</p>
+                    <p>S/. 429.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/tablet3.jpg" alt="">
+                    <p>Tablet PRITOM de 10.1 pulgadas con Android 14, 4 GB de RAM</p>
+                    <p>S/. 220.50</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/tablet4.jpg" alt="">
+                    <p>Tablet LENOVO Ideatab TB336FU 11" 8GB 128GB Luna Grey</p>
+                    <p>S/. 899.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/tablet5.jpg" alt="">
+                    <p>Tablet TCL 10.36" 4GB Tab10 Gen2 Space Gray</p>
+                    <p>S/. 329.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/tablet6.jpg" alt="">
+                    <p>Tablet Yoga Tab 11 11" 4GB 128GB WiFi Storm Grey</p>
+                    <p>S/. 699.90</p>
+                </div>
+            </div>
+            <div class="grupo monitores">
+                <div class="tarjeta">
+                    <img src="imagenes/monitor1.jpg" alt="">
+                    <p>Monitor curvo Samsung 24” Essential S3 LS24D360GALXPE, Panel VA, FHD (1920 x 1080), 100Hz, 4ms, entradas HDMI/VGA/auriculares</p>
+                    <p>S/. 299.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/monitor2.jpg" alt="">
+                    <p>Monitor curvo LG 23.8", 100hz, 5ms, FHD, HDMI, negro - 24u421a</p>
+                    <p>S/. 389.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/monitor3.jpg" alt="">
+                    <p>Monitor plano Samsung 22" Essential S3 LS22D310EALXPE, Panel VA, FHD (1920X1080), 75Hz, 5ms, entradas HDMI/VGA</p>
+                    <p>S/. 289.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/monitor4.jpg" alt="">
+                    <p>Monitor LG 22MR410-B, 21.45" FHD VA (1920x1080) HDMIx1/VGAx1/HP-Out</p>
+                    <p>S/. 279.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/monitor5.jpg" alt="">
+                    <p>Monitor curvo Samsung LS24D360GALXPE 24" FHD VA, 100 Hz, FreeSync, HDMI/DP, Eye Saver, VESA, negro</p>
+                    <p>S/. 339.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/monitor6.jpg" alt="">
+                    <p>Monitor plano Samsung 27” Essential LS27C310EALXPE, Panel IPS, FHD (1920X1080), 75Hz, 5ms, entradas HDMI/VGA</p>
+                    <p>S/. 499.00</p>
+                </div>
+            </div>
+            <div class="grupo computadoras">
+                <div class="tarjeta">
+                    <img src="imagenes/pc1.jpg" alt="">
+                    <p>PC Gamer Ryzen 7 5700G + 16GB RAM + SSD 480GB + HDD 1TB + LED + FreeDos + Radeon Vega</p>
+                    <p>S/. 2099.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/pc2.jpg" alt="">
+                    <p>PC Intel Core i7 6ta + RAM 16GB + SSD 240GB + HDD 1TB + monitor 24" + FreeDos + Logitech</p>
+                    <p>S/. 1829.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/pc3.jpg" alt="">
+                    <p>PC Intel Core i7-8TH + 16GB RAM + Disco Duro 1TB + SSD M.2 500GB + NVIDIA GT 750 4GB + FreeDos + Case Gamer 500W RGB + Monitor 27"</p>
+                    <p>S/. 2699.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/pc4.jpg" alt="">
+                    <p>PC Gamer Core i7-8TH + RAM 16GB + Disco Duro 1TB + SSD 480GB + Radeon RX 580 8GB + FreeDos + Case Gamer 700W</p>
+                    <p>S/. 2829.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/pc5.jpg" alt="">
+                    <p>PC Core i7-8TH + RAM 16GB + Disco Duro 1TB + Disco SSD 480GB + FreeDos + Case Halion 350W RGB</p>
+                    <p>S/. 1829.00</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagenes/pc6.jpg" alt="">
+                    <p>PC RGB COMPUTADORA INTEL I3 SSD 128GB RAM 8GB MONITOR FHD 24</p>
+                    <p>S/. 1920.00</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="info">
+                <img src="imagenes/logo_utp.jpg" alt="">
+                <p>UNIVERSIDAD TECNOLÓGICA DEL PERÚ</p>
+                <p>© Todos los derechos reservados | Desarrollado por <span>Jorge Martín Rodríguez Castro</span> </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<script src="js/catalogo.js"></script>
+
+</html>

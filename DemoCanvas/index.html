@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Canvas</title>
+    <style>
+        canvas {
+            border: solid 1px #ccc;
+            background-color: #fafafa;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="lienzo" width="600" height="400"></canvas>
+</body>
+<script>
+    const canvas = document.getElementById("lienzo");
+    const ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "#3498db";
+    ctx.fillRect(50, 50, 150, 100);
+</script>
+
+</html>
